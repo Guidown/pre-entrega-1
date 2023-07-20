@@ -1,6 +1,6 @@
 import {promises as fs} from "fs"
 import { nanoid } from "nanoid"
-import productManager from "../Products/productManager.js"
+import productManager from "./productManager.js"
 
 const productAll = new productManager("./src/models/products.json")
 
